@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainDialog</class>
+ <widget class="QDialog" name="MainDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>421</width>
+    <height>321</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>421</width>
+    <height>321</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>[4332] Model Viewer v1.5.1</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="btnClose">
+       <property name="text">
+        <string>Закрыть</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="btnViewScene">
+       <property name="text">
+        <string>Посмотреть сцену</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblSceneFile">
+         <property name="text">
+          <string>Путь к сцене:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cmbBackgroundColor">
+         <property name="currentIndex">
+          <number>8</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Белый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Чёрный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Красный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмно-красный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Зелёный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмно-зеленый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Синий</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмно-синий</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Сине-зелёный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмный сине-зелёный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Пурпурный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмный пурпурный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Жёлтый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмно-жёлтый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Серый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Тёмно-серый</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Светло-серый</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="lblSpeed">
+         <property name="text">
+          <string>Скорость прокрутки:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="1">
+          <widget class="QPushButton" name="btnOpenFile">
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="edtSceneFile"/>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="lblResolution">
+         <property name="text">
+          <string>Разрешение окна:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="lblBackgroundColor">
+         <property name="text">
+          <string>Цвет фона:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="cmbResolution">
+         <item>
+          <property name="text">
+           <string>800x600</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1024x800</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1378x764</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1980x1080</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="1">
+          <widget class="QLCDNumber" name="lcdSpeed">
+           <property name="frameShape">
+            <enum>QFrame::Panel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="midLineWidth">
+            <number>0</number>
+           </property>
+           <property name="smallDecimalPoint">
+            <bool>false</bool>
+           </property>
+           <property name="digitCount">
+            <number>3</number>
+           </property>
+           <property name="mode">
+            <enum>QLCDNumber::Dec</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+           <property name="intValue" stdset="0">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QSlider" name="sdrSpeed">
+           <property name="mouseTracking">
+            <bool>false</bool>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="minimum">
+            <number>50</number>
+           </property>
+           <property name="maximum">
+            <number>400</number>
+           </property>
+           <property name="singleStep">
+            <number>50</number>
+           </property>
+           <property name="pageStep">
+            <number>50</number>
+           </property>
+           <property name="value">
+            <number>100</number>
+           </property>
+           <property name="tracking">
+            <bool>true</bool>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="invertedAppearance">
+            <bool>false</bool>
+           </property>
+           <property name="invertedControls">
+            <bool>false</bool>
+           </property>
+           <property name="tickPosition">
+            <enum>QSlider::TicksBelow</enum>
+           </property>
+           <property name="tickInterval">
+            <number>25</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>edtSceneFile</tabstop>
+  <tabstop>btnOpenFile</tabstop>
+  <tabstop>cmbBackgroundColor</tabstop>
+  <tabstop>cmbResolution</tabstop>
+  <tabstop>sdrSpeed</tabstop>
+  <tabstop>btnViewScene</tabstop>
+  <tabstop>btnClose</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>sdrSpeed</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdSpeed</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
