@@ -4,7 +4,7 @@
 ABOUT
 -----------
 
-Simple program for viewing models otrisovanyh a third-party editor. The standard Qt tools.
+Simple program for viewing models created in a third-party editor. The standard Qt tools.
 
 The program allows you to adjust the screen size, background color, as well as the speed and movement of the camera.
 
