@@ -20,11 +20,3 @@ CONTROL
 Move camera: Key left, up, down, right OR left key of mouse
 
 Rotate objects Alt+: Key left, up, down, right OR right key of mouse
-
-BUILD
------------
-
-	1. Install Qt 5.7.*+
-	
-
-	
