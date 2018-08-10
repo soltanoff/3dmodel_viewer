@@ -20,3 +20,21 @@ CONTROL
 Move camera: Key left, up, down, right OR left key of mouse
 
 Rotate objects Alt+: Key left, up, down, right OR right key of mouse
+
+TOOLS
+----------
+
+Framework: Qt4, Qt5 (*preferably*)
+
+Used Qt modules: 
+* 3dcore 
+* 3drender 
+* 3dinput 
+* 3dquick 
+* qml 
+* quick 
+* 3dquickextras 
+* 3dcore 
+* 3drender 
+* 3dinput 
+* 3dextras
