@@ -1,4 +1,4 @@
-# ModelViewer [Qt]
+# ModelViewer [Qt5]
 
 
 ABOUT
